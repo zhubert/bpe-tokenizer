@@ -2,6 +2,9 @@
 
 A high-performance Byte Pair Encoding (BPE) tokenizer implementation in Go with optimized incremental pair counting.
 
+> **⚠️ Experimental - Educational Use Only**
+> This project is an experimental implementation created for educational purposes to demonstrate the BPE algorithm. It is **not production-ready** and should not be used in production systems. For production use cases, consider established libraries like [Hugging Face Tokenizers](https://github.com/huggingface/tokenizers) or [SentencePiece](https://github.com/google/sentencepiece).
+
 ## Overview
 
 This library implements the Byte Pair Encoding algorithm, a subword tokenization technique widely used in natural language processing and machine learning models. BPE iteratively merges the most frequent pairs of bytes (or tokens) in the training corpus to build a vocabulary of subword units.
